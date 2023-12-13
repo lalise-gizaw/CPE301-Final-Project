@@ -1,10 +1,10 @@
 /****************************************
- * Name: Vanessa Kalenits
- * Lalise Gizaw
+ * Names: Vanessa Kalenits, Lalise Gizaw
  * Assignment: Lab Final
- * Date: December 12,2023
-We did the code together on Arduino but I just copy pasted on here using Github because it was not letting us push.
+ * Date: December 12, 2023
  ****************************************/
+//worked on code together in person on Arduino
+
 // Necessary libraries needed 
 #include "Adafruit_Sensor.h" // Adafruit sesonsor by 
 #include "DHT.h" // DHT sensor byy Adafruit
@@ -70,9 +70,6 @@ volatile unsigned char *portB = (unsigned char *) 0x25;
 volatile unsigned char* port_f = (unsigned char*) 0x31;
 volatile unsigned char* ddr_f = (unsigned char*) 0x30;
 volatile unsigned char* pin_f = (unsigned char*) 0x2F;
-
-
-
 
 
 //threshold
