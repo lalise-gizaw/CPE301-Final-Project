@@ -15,7 +15,7 @@
 //DHT TEMP, HUMIDITY
 #define dht_p 35 // define dht pin at 35
 #define DHTTYPE DHT11
-DHT dht(dht_p, DHTTYPE);
+DHT dht(dht_p, DHTTYPE);//
 
 //LCD
 //#include <LiquidCrystal.h>
